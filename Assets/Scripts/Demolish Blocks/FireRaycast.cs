@@ -17,7 +17,7 @@ public class FireRaycast : MonoBehaviour
             {
                 if (ballPrefab == null) return;
 
-                Debug.Log("Thorwing grenade...");
+                Debug.Log("Throwing ball...");
                 Instantiate(ballPrefab, hit.point, ballPrefab.transform.rotation);
             }
         }
